@@ -14,7 +14,7 @@ export const HomeFooter = () => {
 
     return (
         <div className={homeMainStyles['footer-wrapper']} >
-            <Link href="https://discord.gg/nftgrumpies" target="_blank">
+            <Link href="https://discord.gg/grumpies" target="_blank">
                 <Image src={discordLogo} className={homeMainStyles['footer-logo']} alt="img" />
             </Link>
             <Link href="https://twitter.com/NFTGrumpies" target="_blank">
