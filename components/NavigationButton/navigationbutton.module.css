@@ -1,0 +1,13 @@
+.navigationbutton-wrapper{
+    padding: 15px;
+    color:#fff;
+    margin: auto;
+    display: block;
+}
+
+.active-route{
+    background-image: url('../../assets/button_effect.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

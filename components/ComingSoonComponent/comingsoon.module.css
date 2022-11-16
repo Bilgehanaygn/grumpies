@@ -1,0 +1,64 @@
+.main_container{
+    background-image: url("../../assets/coming_soon/comingsoon_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main_wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.illus_wrapper{
+    width:50%;
+}
+
+.comingsoon_illus_styles{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.season_coming_wrapper{
+    display:flex;
+    flex-direction: column;
+    width:30%;
+}
+
+.season_coming_image{
+    width: 100%;
+    height:auto;
+}
+
+.effects{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main_wrapper{
+        display:block;
+        background-image: url("../../assets/coming_soon/mobile_main.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+    }
+    .illus_wrapper{
+        display: none;
+    }
+    .season_coming_wrapper{
+        display: none;
+    }
+}
