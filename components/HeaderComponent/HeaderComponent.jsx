@@ -5,7 +5,7 @@ import NavigationButton from '../NavigationButton/NavigationButton';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import mobileMenuIcon from '../../assets/mobile_menu_icon.png';
-
+import Link from 'next/link';
 
 export default function HeaderComponent (){
     const [modalOpen, setModalOpen] = useState(false);
@@ -16,7 +16,9 @@ export default function HeaderComponent (){
             <div className={headerStyles['header-wrapper']} >
                 <NavigationButton text={"HOME"} navLink={"/"} activeRoute={router.pathname} />
                 <NavigationButton text={"SHOP"} navLink={"/shop"} activeRoute={router.pathname} />
-                <Image src={logoImage} style={{cursor:"pointer"}} alt="img" />
+                <Link href="/">
+                    <Image src={logoImage} style={{cursor:"pointer"}} alt="img" />
+                </Link>
                 <NavigationButton text={"TEAM"} navLink={"/team"} activeRoute={router.pathname} />
                 <NavigationButton text={"MINDMAP"} navLink={"/mindmap"} activeRoute={router.pathname} />
             </div>
