@@ -1,6 +1,6 @@
 import comingSoonStyles from './comingsoon.module.css';
 import Image from 'next/image';
-import comingSoonIllus from '../../assets/coming_soon/coming_soon_illus_rotated.png';
+import comingSoonIllus from '../../assets/coming_soon/coming_soon_illus_rotated2.png';
 import seasonComing from '../../assets/coming_soon/seasonComing.png';
 import HeaderComponent from '../HeaderComponent/HeaderComponent';
 import { HomeFooter } from '../HomeComponent/HomeComponent';

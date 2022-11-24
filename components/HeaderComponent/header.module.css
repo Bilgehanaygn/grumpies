@@ -1,6 +1,6 @@
 .header-wrapper{
     font-family: 'whatever';
-    width:40vw;
+    width:45vw;
     height:80px;
     display: flex;
     flex-direction: row;
@@ -8,9 +8,18 @@
     align-items: center;
     padding: 10px;
     box-sizing: border-box;
-    color: #f5d8fb;
-    font-size: 25px;
+    color: #c2dbfd;
+    font-size: 20px;
     z-index: 2;
+    text-shadow:
+    0 0 7px #c2dbfd,
+    0 0 10px #c2dbfd,
+    0 0 21px #c2dbfd,
+    0 0 42px #c2dbfd,
+    0 0 82px #c2dbfd,
+    0 0 92px #c2dbfd,
+    0 0 102px #c2dbfd,
+    0 0 151px #c2dbfd;
 }
 
 .mobile-header-wrapper{

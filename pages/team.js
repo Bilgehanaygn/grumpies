@@ -1,11 +1,10 @@
-import ComingSoon from "../components/ComingSoonComponent/ComingSoon";
-import HomeComponent from "../components/HomeComponent/HomeComponent";
+import TeamComponent from "../components/TeamComponent/Team";
 
 const Team = () => {
 
 
     return (
-        <ComingSoon />
+        <TeamComponent />
     )
 }
 

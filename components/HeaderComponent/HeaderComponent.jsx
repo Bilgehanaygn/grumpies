@@ -16,7 +16,7 @@ export default function HeaderComponent (){
             <div className={headerStyles['header-wrapper']} >
                 <NavigationButton text={"HOME"} navLink={"/"} activeRoute={router.pathname} />
                 <NavigationButton text={"SHOP"} navLink={"/shop"} activeRoute={router.pathname} />
-                <Link href="/">
+                <Link href="/" style={{margin:"0px 5px"}} >
                     <Image src={logoImage} style={{cursor:"pointer"}} alt="img" />
                 </Link>
                 <NavigationButton text={"TEAM"} navLink={"/team"} activeRoute={router.pathname} />

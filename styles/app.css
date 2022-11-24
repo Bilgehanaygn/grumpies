@@ -1,5 +1,10 @@
 @font-face {
   font-family: 'whatever';
+  src: url('./detective_manero_regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'whatever-bold';
   src: url('./detective_manero.ttf') format('truetype');
 }
 
@@ -9,7 +14,6 @@
   border: 0;
   font: inherit;
   overflow: hidden;
-
 }
 
 a{

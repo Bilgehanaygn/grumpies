@@ -1,8 +1,15 @@
 .navigationbutton-wrapper{
     padding: 15px;
-    color:#fff;
+    color: #c2dbfd;
     margin: auto;
     display: block;
+}
+
+.navigationbutton-wrapper:hover{
+    background-image: url('../../assets/button_effect.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .active-route{
