@@ -32,7 +32,7 @@ export default function Team(){
         <div className={teamStyles['main-wrapper']} >
             <HeaderComponent />
             <div className={teamStyles['blockouter_wrapper']} >
-                <div style={{color:"#c2dbfd", marginTop:30}} >
+                <div style={{color:"#c2dbfd", marginTop:15}} >
                     <div className={teamStyles['meettheteam_wrapper']} >MEET THE TEAM</div>
                     <div className={teamStyles['teamslogan_wrapper']} >The team that is leading the journey to a Better Tomorrow</div>
                 </div>
