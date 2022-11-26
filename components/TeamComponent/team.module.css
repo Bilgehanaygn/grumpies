@@ -62,6 +62,7 @@
 
     .blockouter_wrapper{
         overflow: auto;
+        padding-bottom: 50px;
     }
 
     .blockouter_wrapper::-webkit-scrollbar{

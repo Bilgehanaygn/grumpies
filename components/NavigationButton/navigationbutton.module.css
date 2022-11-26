@@ -3,6 +3,7 @@
     color: #c2dbfd;
     margin: auto;
     display: block;
+    background-color: transparent;
 }
 
 .navigationbutton-wrapper:hover{

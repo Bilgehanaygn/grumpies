@@ -21,10 +21,10 @@ function Member({props}){
 export default function Team(){
 
     const members = [
+        {name:"Nick", role:"Founder", image:nickAvatar},
+        {name:"Orris", role:"Co-founder", image:orriAvatar},
         {name:"wlee⍥", role:"Art/Design", image:wleeAvatar},
         {name:"Linda", role:"Art/Design", image:lindaAvatar},
-        {name:"Orri", role:"Co-founder", image:orriAvatar},
-        {name:"Nick", role:"Founder", image:nickAvatar},
         {name:"ShermzBoi", role:"Collab Man", image:boiAvatar},
     ]
 

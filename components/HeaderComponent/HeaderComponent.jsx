@@ -31,7 +31,7 @@ export default function HeaderComponent (){
             </div>
             {
                 modalOpen ?
-                <div style={{position:"absolute", backgroundColor:"rgba(14,79,173,0.3)", top:0, right:0, 
+                <div style={{position:"absolute", backgroundColor:"rgba(14,79,173,0.6)", top:0, right:0, 
                 width:"50vw", height:"100vh", zIndex:2, color:"#bfd5fd", fontFamily:"whatever", fontSize:20, paddingTop:20, 
                 boxSizing:"border-box"}} >
                     <div style={{textAlign:"right"}} onClick={()=>{setModalOpen(!modalOpen)}} >
