@@ -4,6 +4,8 @@
     margin: auto;
     display: block;
     background-color: transparent;
+    text-shadow:
+    0 0 15px #c2dbfd;
 }
 
 .navigationbutton-wrapper:hover{

@@ -10,15 +10,6 @@
     color: #c2dbfd;
     font-size: 20px;
     z-index: 2;
-    text-shadow:
-    0 0 7px #c2dbfd,
-    0 0 10px #c2dbfd,
-    0 0 21px #c2dbfd,
-    0 0 42px #c2dbfd,
-    0 0 82px #c2dbfd,
-    0 0 92px #c2dbfd,
-    0 0 102px #c2dbfd,
-    0 0 151px #c2dbfd;
 }
 
 .mobile-header-wrapper{
